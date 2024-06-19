@@ -1,9 +1,8 @@
 #assign a variable
 hours = 2
-seconds = 3600 
 
 #calculate the hour
-result = hours * seconds
+seconds = hours * 3600
 
 #printing the result
-print("2 hour(s) is ",result," seconds")
+print("2 hour(s) is ",seconds," seconds")
