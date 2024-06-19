@@ -1,9 +1,9 @@
 #assigning a variable
-income = int(input("Enter your monthly income: "))
-expense = int(input("Enter your total monthly expenses: "))
+monthly_income = int(input("Enter your monthly income: "))
+monthly_expenses = int(input("Enter your total monthly expenses: "))
 
 #calculate the monthly_savings and Projected_Savings
-monthly_savings =  income - expense 
+monthly_savings = float(monthly_income) - float(monthly_expenses)
 Projected_Savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
 #print the result
