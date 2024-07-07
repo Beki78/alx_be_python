@@ -6,7 +6,7 @@ degree = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
 
 
 def convert_to_celsius(fahrenheit):
-    ans = FAHRENHEIT_TO_CELSIUS_FACTOR * (fahrenheit - 32)
+    ans = (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     return ans
     
 
@@ -19,3 +19,4 @@ if degree == "C":
     print(convert_to_fahrenheit(temp))
 elif degree == "F":
     print(convert_to_celsius(temp))
+
