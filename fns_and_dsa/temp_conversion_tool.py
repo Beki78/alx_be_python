@@ -19,4 +19,5 @@ if degree == "C":
     print(convert_to_fahrenheit(temp))
 elif degree == "F":
     print(convert_to_celsius(temp))
-
+else:
+    print("Invalid temperature. Please enter a numeric value.")
