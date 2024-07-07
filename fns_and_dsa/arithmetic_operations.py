@@ -1,11 +1,11 @@
-def perform_operation(x, y, operation):
+def perform_operation(num1, num2, operation):
     match operation:
         case "add":
-            return x + y
+            return num1 + num2
         case "subtract":
-            return x - y
+            return num1 - num2
         case "divide":
-            return x / y
+            return num1 / num2
         case "multiply":
-            return x * y
+            return num1 * num2
         
