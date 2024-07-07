@@ -1,11 +1,15 @@
 def perform_operation(num1, num2, operation):
     if operation == "add":
         return num1 + num2
-    if operation == "subtract":
+    elif operation == "subtract":
         return num1 - num2
-    if operation == "divide":
-        return num1 / num2
-    if operation == "multiply":
+    elif operation == "divide":
+        if num1 == 0:
+            return "error"
+        else: 
+            return num1 / num2
+    
+    elif operation == "multiply":
         return num1 * num2
     
         
