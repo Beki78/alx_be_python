@@ -8,7 +8,7 @@ class BankAccount:
         if self.account_balance > amount:
             self.account_balance =- amount
             return True
-        else: 
+        else:   
             return False
     def display_balance(self):
-        return f"Your current balance is {self.account_balance}"
+        return f"Current Balance: {self.account_balance}"
