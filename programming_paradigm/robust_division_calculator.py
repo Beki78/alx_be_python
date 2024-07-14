@@ -11,4 +11,4 @@ def safe_divide(numerator, denominator):
  
         
     
-safe_divide(1.23, 3)
+safe_divide()
