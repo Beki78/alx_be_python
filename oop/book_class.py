@@ -11,3 +11,14 @@ class Book:
 
         def __repr__(self):
             return f"Book('{self.title}', '{self.author}', {self.year})"
+if __name__ == "__main__":
+    book1 = Book("1984", "George Orwell", 1949)
+    book2 = Book("To Kill a Mockingbird", "Harper Lee", 1960)
+
+    print(book1)  
+    print(repr(book1))  
+
+    print(book2)  
+    print(repr(book2))  
+    del book1  
+    del book2 
