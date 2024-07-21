@@ -1,35 +1,17 @@
-class Book:
-    def __init__(self, title, author):
-        self.title = title
-        self.author = author
+from book_class import Book
 
-    def __str__(self):
-        return f"{self.title} by {self.author}"
+def main():
+    # Creating an instance of Book
+    my_book = Book("1984", "George Orwell", 1949)
 
-class EBook(Book):
-    def __init__(self, title, author, file_size):
-        super().__init__(title, author)
-        self.file_size = file_size
+    # Demonstrating the __str__ method
+    print(my_book)  # Expected to use __str__
 
-    def __str__(self):
-        return f"{self.title} by {self.author}, File Size: {self.file_size}MB"
+    # Demonstrating the __repr__ method
+    print(repr(my_book))  # Expected to use __repr__
 
-class PrintBook(Book):
-    def __init__(self, title, author, page_count):
-        super().__init__(title, author)
-        self.page_count = page_count
+    # Deleting a book instance to trigger __del__
+    del my_book
 
-    def __str__(self):
-        return f"{self.title} by {self.author}, Pages: {self.page_count}"
-
-
-class Library:
-    def __init__(self):
-        self.books = []
-
-    def add_book(self, book):
-        self.books.append(book)
-
-    def list_books(self):
-        for book in self.books:
-            print(book)
+if __name__ == "__main__":
+    main()
