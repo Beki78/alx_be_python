@@ -110,3 +110,58 @@
 
 # lassie = Dog("Lassie")
 # lassie.make_sound()  # Output: Woof!
+
+from array import *
+
+#first commit
+# def traverse():
+#     arr = array("i", [])
+#     arr.append(5)
+#     for i in arr:
+#         return print(i)
+# traverse()
+
+
+#second commit
+# arr = array("i", [1,2,3,4])
+# def traverse(Beki, index):
+#     Beki.append(5)
+#     if index >= len(Beki):
+#         print("The is no element")
+#     else:
+#         print(Beki[index])
+# traverse(arr, 4)
+
+
+#third commit 
+# arr = array("i", [1,2,3,4])
+# def traverse(Beki, index):
+#     Beki.insert(0, 10)
+#     if index >= len(Beki):
+#         print("The is no element")
+#     else:
+#         print(Beki[index])
+# traverse(arr, 0)
+
+
+#fourth commit 
+# arr = array("i", [1,2,3,4])
+# def traverse(Beki, index):
+#     Selam = [10,11,12]
+#     Beki.extend(Selam)
+#     if index >= len(Beki):
+#         print("The is no element")
+#     else:
+#         print(Beki[index])
+# traverse(arr, 5)
+
+
+#fifth commit 
+arr = array("i", [1,2,3,4])
+def traverse(Beki, index):
+    Beki.insert(0, 10)
+    if index >= len(Beki):
+        print("The is no element")
+    else:
+        print(Beki[index])
+traverse(arr, 0)
