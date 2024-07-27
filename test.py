@@ -198,19 +198,64 @@
 # bigprodut(myArr)
 
 
-l1 = ["c", "a", "t", "e"]
-l2 = ["t", "c", "a", "z"]
+# l1 = ["c", "a", "t", "e"]
+# l2 = ["t", "c", "a", "z"]
 
-def permutation(list1, list2):
-    if len(list1) != len(list2):
-        return False
-    list1.sort()
-    list2.sort()
-    if list1 == list2:
-        return True
-    else:
-        return False
-print(permutation(l1, l2))
-        
+# def permutation(list1, list2):
+#     if len(list1) != len(list2):
+#         return False
+#     list1.sort()
+#     list2.sort()
+#     if list1 == list2:
+#         return True
+#     else:
+#         return False
+# print(permutation(l1, l2))
+
+
+# 1,2,3     7,4,1
+# 4,5,6     8,5,2
+# 7,8,9     9,6,3
+
+
+# import numpy as np
+# myArr = np.array([[1,2,3], [4,5,6], [7,8,9]])
+
+# myArr[2][2] = myArr[0][2]
+# myArr[0][2] = myArr[0][0]
+# myArr[0][0] = myArr[2][0]
+# myArr[2][0] = myArr[2][2]
+
+# print(myArr)
+
+# myArr = [[1,2,3], [4,5,6], [7,8,9]]
+# for i in range(0,len(myArr)):
+#     for j in range(0,len(myArr[i])):
+#         print(myArr[i][j], end="\t")
+#     print("\n")
+
+
+def temp():
+    myList = []
+    myNewList = []
+    user = int(input("How many day's temperature: "))
+    for i in range(1, user + 1):
+        if i > user:
+            break
+        else:
+            temperature = (int(input(f"Day {i} highest temp: ")))
+            i = i +1
+            myList.append(temperature)
+    AVG = sum(myList) / len(myList)
+    print(f"Average = {AVG}")
+    
+    for temp in myList:
+        if temp > AVG:
+            myNewList.append(temp)
+    print(f"{len(myNewList)} day(s)  is above average")        
+temp()
+
+
+
 
 
