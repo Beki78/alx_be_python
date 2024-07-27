@@ -111,7 +111,7 @@
 # lassie = Dog("Lassie")
 # lassie.make_sound()  # Output: Woof!
 
-from array import *
+# from array import *
 
 #first commit
 # def traverse():
@@ -157,11 +157,38 @@ from array import *
 
 
 #fifth commit 
-arr = array("i", [1,2,3,4])
-def traverse(Beki, index):
-    Beki.insert(0, 10)
-    if index >= len(Beki):
-        print("The is no element")
-    else:
-        print(Beki[index])
-traverse(arr, 0)
+# arr = array("i", [1,2,3,4])
+# def traverse(Beki, index):
+#     Beki.insert(0, 10)
+#     if index >= len(Beki):
+#         print("The is no element")
+#     else:
+#         print(Beki[index])
+# traverse(arr, 0)
+
+
+# my_list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100]
+# def findMissing(mylist):
+#     sum1 = 100*101/2
+#     sum2 = sum(mylist)
+#     print(sum1 - sum2)
+# findMissing(my_list)
+
+
+# arr = [1,2,3,4, 5]
+# def twosum(mylist:int, target:int):
+#     for i in arr:
+#         for j in arr:
+#             if i + j == target and j == i +1:
+#                 print([arr.index(i),arr.index(j)])
+#             elif i or j <= 0:
+#                 print('invalid')
+            
+# twosum(arr, -3)
+
+from numpy import numpy
+myarr = numpy.array([1,2,3])
+print(myarr)
+
+
+
