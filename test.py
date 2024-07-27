@@ -186,9 +186,31 @@
             
 # twosum(arr, -3)
 
-from numpy import numpy
-myarr = numpy.array([1,2,3])
-print(myarr)
 
+
+# import numpy as np
+# myArr = np.array([62,34,39,13,58,64,17,18,38,37,35,53,43,59,36])
+# def bigprodut(array):
+#     array.sort()
+#     product = array[-1] * array[-2]
+#     print(array[-1] , array[-2])
+#     print(product)
+# bigprodut(myArr)
+
+
+l1 = ["c", "a", "t", "e"]
+l2 = ["t", "c", "a", "z"]
+
+def permutation(list1, list2):
+    if len(list1) != len(list2):
+        return False
+    list1.sort()
+    list2.sort()
+    if list1 == list2:
+        return True
+    else:
+        return False
+print(permutation(l1, l2))
+        
 
 
