@@ -256,13 +256,26 @@
 # temp()
 
 
-def sumOf(n):
-    z = str(2)
-    lists = []
-    for i in range(1, n + 1):
-        lists.append(int(z * i))
-    print(sum(lists))    
-(sumOf(5))
+# def sumOf(n):
+#     z = str(2)
+#     lists = []
+#     for i in range(1, n + 1):
+#         lists.append(int(z * i))
+#     print(sum(lists))    
+# (sumOf(5))
+
+
+# sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
+
+
+# def merge(list):
+    
+#     print(sorted(list))
+#     for i in list:
+#         list.cou
+# merge(sample_list)
+
+    
 
 
 
