@@ -275,6 +275,16 @@
 #         list.cou
 # merge(sample_list)
 
+# list1 = [5, 20, 15, 20, 25, 50, 20]
+# def findOccurrence(list, num):
+#     for i in list:
+#         if i == num:
+#             list.remove(num)
+#     print(list)
+# findOccurrence(list1, 20)
+    
+    
+
     
 
 
