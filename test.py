@@ -235,25 +235,42 @@
 #     print("\n")
 
 
-def temp():
-    myList = []
-    myNewList = []
-    user = int(input("How many day's temperature: "))
-    for i in range(1, user + 1):
-        if i > user:
-            break
-        else:
-            temperature = (int(input(f"Day {i} highest temp: ")))
-            i = i +1
-            myList.append(temperature)
-    AVG = sum(myList) / len(myList)
-    print(f"Average = {AVG}")
+# def temp():
+#     myList = []
+#     myNewList = []
+#     user = int(input("How many day's temperature: "))
+#     for i in range(1, user + 1):
+#         if i > user:
+#             break
+#         else:
+#             temperature = (int(input(f"Day {i} highest temp: ")))
+#             i = i +1
+#             myList.append(temperature)
+#     AVG = sum(myList) / len(myList)
+#     print(f"Average = {AVG}")
     
-    for temp in myList:
-        if temp > AVG:
-            myNewList.append(temp)
-    print(f"{len(myNewList)} day(s)  is above average")        
-temp()
+#     for temp in myList:
+#         if temp > AVG:
+#             myNewList.append(temp)
+#     print(f"{len(myNewList)} day(s)  is above average")        
+# temp()
+
+
+def sumOf(n):
+    z = str(2)
+    lists = []
+    for i in range(1, n + 1):
+        lists.append(int(z * i))
+    print(sum(lists))    
+(sumOf(5))
+
+
+
+
+        
+
+        
+
 
 
 
