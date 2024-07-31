@@ -477,16 +477,16 @@
 # # B. False
 # # C. 1
 # # D. Exception
-rec = {"Name" : "Python", "Age":"20", "Addr" : "NJ", "Country" : "USA"}
-id1 = id(rec)
-id2 = id(rec)
-print(id1 == id2)
-rec = {"Name" : "Python", "Age":"20", "Addr" : "NJ", "Country" : "USA"}
-id1 = id(rec)
-id2 = id(rec)
-print(id(id1))
-print(id(id2))
-print(id(id1) == id(id2))
+# rec = {"Name" : "Python", "Age":"20", "Addr" : "NJ", "Country" : "USA"}
+# id1 = id(rec)
+# id2 = id(rec)
+# print(id1 == id2)
+# rec = {"Name" : "Python", "Age":"20", "Addr" : "NJ", "Country" : "USA"}
+# id1 = id(rec)
+# id2 = id(rec)
+# print(id(id1))
+# print(id(id2))
+# print(id(id1) == id(id2))
 
 
 
